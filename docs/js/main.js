@@ -1,6 +1,7 @@
 console.log("main.js connected");
+const title = document.getElementById("title");
 const testBtn = document.getElementById("testBtn");
 
 testBtn.addEventListener("click", () => {
-  console.log("button clicked");
+  title.textContent = "button clicked!";
 });
